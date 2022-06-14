@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px blue solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+}
+
+.logo {
+    height: 50px;
+    display: flex;
+    border: 2px green solid;
+}
+
+.nav-container {
+    display: flex;
+    list-style-type: none;
+    border: 1px red solid;
+
+}
+
+.hero-image {
+    /* background-color: red; */
+    /* background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*f8xyl8*_ga*MTkzNzcwMjAyNi4xNjQ0MzQ4Nzk2*_ga_3LRZM6TM9L*MTY1NTE3NTMyMC41MC4xLjE2NTUxNzU3MjcuNTg."); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Users/alexg/Projects/github/Code_academy/Make_website_responsive/Project_tea_cozy/resources/images/img-mission-background.jpeg");
+     /* Set a specific height */
+    height: 500px;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+     background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 100%;
+  }
+
+  .steeping-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      min-height: 400px;
+      align-content: space-around;
+      gap: 20px;
+  }
+
+  .steeping_image {
+      flex: 0 1 300px;
+  }
+
+.location-hero-image {
+    /* background-color: red; */
+    /* background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*f8xyl8*_ga*MTkzNzcwMjAyNi4xNjQ0MzQ4Nzk2*_ga_3LRZM6TM9L*MTY1NTE3NTMyMC41MC4xLjE2NTUxNzU3MjcuNTg."); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Users/alexg/Projects/github/Code_academy/Make_website_responsive/Project_tea_cozy/resources/images/img-locations-background.jpeg");
+     /* Set a specific height */
+    height: 500px;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.location-hero-title {
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.location-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.location-cards {
+    width:100px;
+    min-height: 200px;
+}
+
+.footer-info {
+    text-align: center;
+}
